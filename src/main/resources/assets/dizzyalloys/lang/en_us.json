@@ -1,3 +1,7 @@
 {
-"item.dizzyalloys.raw_tin": "Raw Tin"
+  "item.dizzyalloys.raw_tin": "Raw Tin",
+
+  "block.dizzyalloys.tin_ore": "Tin Ore",
+
+  "block.dizzyalloys.tin_block": "Tin Block"
 }

@@ -1,5 +1,6 @@
 package net.dyzygy.dizzyalloys;
 
+import net.dyzygy.dizzyalloys.block.ModBlock;
 import net.dyzygy.dizzyalloys.item.ModItems;
 import net.neoforged.bus.api.Event;
 import org.slf4j.Logger;
@@ -52,6 +53,7 @@ public class DizzyAlloys {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlock.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
@@ -68,6 +70,14 @@ public class DizzyAlloys {
     private void addCreative(BuildCreativeModeTabContentsEvent event) {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RAW_TIN);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlock.TIN_ORE);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
+            event.accept(ModBlock.TIN_BLOCK);
         }
     }
 
