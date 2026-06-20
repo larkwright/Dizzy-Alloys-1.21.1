@@ -1,6 +1,7 @@
 package net.dyzygy.dizzyalloys.block;
 
 import net.dyzygy.dizzyalloys.DizzyAlloys;
+import net.dyzygy.dizzyalloys.block.custom.DymalloyAltarBlock;
 import net.dyzygy.dizzyalloys.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -34,6 +35,11 @@ public class ModBlock {
     public static final DeferredBlock<Block> TIN_BLOCK = registerBlock("tin_block",
             () -> new Block(BlockBehaviour.Properties.of()
                     .strength(4f).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+
+    // FUNCTIONAL BLOCKS
+    public static final DeferredBlock<Block> DYMALLOY_ALTAR = registerBlock("dymalloy_altar",
+            () -> new Block(BlockBehaviour.Properties.of()
+                    .strength(2f).requiresCorrectToolForDrops()));
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

@@ -89,6 +89,14 @@ public class DizzyAlloys {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS) {
             event.accept(ModBlock.TIN_BLOCK);
         }
+
+        if(event.getTabKey() == CreativeModeTabs.FUNCTIONAL_BLOCKS) {
+            event.accept(ModBlock.DYMALLOY_ALTAR);
+        }
+
+        if(event.getTabKey() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+            event.accept(ModItems.CHISEL);
+        }
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
