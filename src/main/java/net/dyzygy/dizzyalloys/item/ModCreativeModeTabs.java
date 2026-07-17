@@ -26,7 +26,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlock.DEEPSLATE_TIN_ORE);
                         output.accept(ModBlock.TIN_ORE);
                         output.accept(ModItems.CHISEL);
-                        output.accept(ModBlock.DYMALLOY_ALTAR);
+                        output.accept(ModBlock.DYMALLOY_PEDESTAL);
 
                     }).build());
 
