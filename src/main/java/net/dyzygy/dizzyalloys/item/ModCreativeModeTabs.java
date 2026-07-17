@@ -25,8 +25,35 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlock.TIN_BLOCK);
                         output.accept(ModBlock.DEEPSLATE_TIN_ORE);
                         output.accept(ModBlock.TIN_ORE);
+                        output.accept(ModItems.RAW_NICKEL);
+                        output.accept(ModItems.NICKEL_INGOT);
+                        output.accept(ModBlock.NICKEL_BLOCK);
+                        output.accept(ModBlock.DEEPSLATE_NICKEL_ORE);
+                        output.accept(ModBlock.NICKEL_ORE);
+                        output.accept(ModItems.BAUXITE_DUST);
+                        output.accept(ModItems.ALUMINUM_INGOT);
+                        output.accept(ModBlock.ALUMINUM_BLOCK);
+                        output.accept(ModBlock.NETHERRACK_BAUXITE_ORE);
+                        output.accept(ModBlock.DEEPSLATE_BAUXITE_ORE);
+                        output.accept(ModBlock.BAUXITE_ORE);
+                        output.accept(ModItems.RAW_COBALT);
+                        output.accept(ModItems.COBALT_INGOT);
+                        output.accept(ModBlock.COBALT_BLOCK);
+                        output.accept(ModBlock.DEEPSLATE_COBALT_ORE);
+                        output.accept(ModBlock.COBALT_ORE);
+                        output.accept(ModItems.RAW_SILVER);
+                        output.accept(ModItems.SILVER_INGOT);
+                        output.accept(ModBlock.SILVER_BLOCK);
+                        output.accept(ModBlock.DEEPSLATE_SILVER_ORE);
+                        output.accept(ModItems.RAW_ZINC);
+                        output.accept(ModItems.ZINC_INGOT);
+                        output.accept(ModBlock.ZINC_BLOCK);
+                        output.accept(ModBlock.ZINC_ORE);
+                        output.accept(ModBlock.DEEPSLATE_ZINC_ORE);
+
+
                         output.accept(ModItems.CHISEL);
-                        output.accept(ModBlock.DYMALLOY_PEDESTAL);
+                        output.accept(ModBlock.DYMALLOY_ALTAR);
 
                     }).build());
 

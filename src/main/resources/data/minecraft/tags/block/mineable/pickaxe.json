@@ -3,6 +3,18 @@
   "values": [
     "dizzyalloys:tin_ore",
     "dizzyalloys:deepslate_tin_ore",
-    "dizzyalloys:tin_block"
+    "dizzyalloys:tin_block",
+    "dizzyalloys:nickel_ore",
+    "dizzyalloys:deepslate_nickel_ore",
+    "dizzyalloys:nickel_block",
+    "dizzyalloys:bauxite_ore",
+    "dizzyalloys:deepslate_bauxite_ore",
+    "dizzyalloys:netherrack_bauxite_ore",
+    "dizzyalloys:aluminum_block",
+    "dizzyalloys:cobalt_ore",
+    "dizzyalloys:deepslate_cobalt_ore",
+    "dizzyalloys:cobalt_block",
+    "dizzyalloys:deepslate_silver_ore",
+    "dizzyalloys:silver_block"
   ]
 }

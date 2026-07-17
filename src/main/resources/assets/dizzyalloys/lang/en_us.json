@@ -1,12 +1,40 @@
 {
   "item.dizzyalloys.raw_tin": "Raw Tin",
   "item.dizzyalloys.tin_ingot": "Tin Ingot",
+  "item.dizzyalloys.raw_nickel": "Raw Nickel",
+  "item.dizzyalloys.nickel_ingot": "Nickel Ingot",
+  "item.dizzyalloys.bauxite_dust": "Bauxite Dust",
+  "item.dizzyalloys.aluminum_ingot": "Aluminum Ingot",
+  "item.dizzyalloys.raw_cobalt": "Raw Cobalt",
+  "item.dizzyalloys.cobalt_ingot": "Cobalt Ingot",
+  "item.dizzyalloys.raw_silver": "Raw Silver",
+  "item.dizzyalloys.silver_ingot": "Silver Ingot",
+  "item.dizzyalloys.raw_zinc": "Raw Zinc",
+  "item.dizzyalloys.zinc_ingot": "Zinc Ingot",
+
   "item.dizzyalloys.chisel": "Chisel",
 
   "block.dizzyalloys.tin_ore": "Tin Ore",
   "block.dizzyalloys.deepslate_tin_ore": "Deepslate Tin Ore",
 
   "block.dizzyalloys.tin_block": "Tin Block",
+  "block.dizzyalloys.nickel_ore": "Nickel Ore",
+  "block.dizzyalloys.deepslate_nickel_ore": "Deepslate Nickel Ore",
+  "block.dizzyalloys.nickel_block": "Nickel Block",
+  "block.dizzyalloys.bauxite_ore": "Bauxite Ore",
+  "block.dizzyalloys.deepslate_bauxite_ore": "Deepslate Bauxite Ore",
+  "block.dizzyalloys.netherrack_bauxite_ore": "Netherrack Bauxite Ore",
+  "block.dizzyalloys.aluminum_block": "Aluminum Block",
+  "block.dizzyalloys.cobalt_ore": "Cobalt Ore",
+  "block.dizzyalloys.deepslate_cobalt_ore": "Deepslate Cobalt Ore",
+  "block.dizzyalloys.cobalt_block": "Cobalt Block",
+  "block.dizzyalloys.deepslate_silver_ore": "Deepslate Silver Ore",
+  "block.dizzyalloys.silver_block": "Silver Block",
+  "block.dizzyalloys.zinc_ore": "Zinc Ore",
+  "block.dizzyalloys.deepslate_zinc_ore": "Deepslate Zinc Ore",
+  "block.dizzyalloys.zinc_block": "Zinc Block",
+
+
   "block.dizzyalloys.dymalloy_altar": "Dymalloy Altar",
 
   "creativetab.dizzyalloys.dizzy_alloys_tab": "Dizzy Alloys"
